@@ -1,13 +1,17 @@
+import 'pelicula.dart';
+
 class Reserva {
-  final String nombrePelicula;
+  final Pelicula pelicula;
   final String fecha;
   final String hora;
-  final String imagenUrl;
+  final String asientos;
+  final bool recordatorio;
 
   const Reserva({
-    required this.nombrePelicula,
+    required this.pelicula,
     required this.fecha,
     required this.hora,
-    this.imagenUrl = '',
+    required this.asientos,
+    required this.recordatorio,
   });
 }

@@ -1,4 +1,4 @@
-# proy_cine_app
+# prueba_caso_practico
 
 A new Flutter project.
 
